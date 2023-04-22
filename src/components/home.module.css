@@ -1,8 +1,8 @@
 .divv{
     background-color: bisque;
-    width: 50vw;
-    height: 40vh;
-    border-radius: 10px;
+    width: max-content;
+    height: max-content;
+     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,8 +38,8 @@
     align-items: center;
     cursor: pointer;
     text-transform: uppercase;
-    height: 50px;
-    width: 210px;
+    height: 70px;
+    width: 150px;
     opacity: 1;
     
     background-color:darkgoldenrod;
@@ -99,9 +99,10 @@
     }
   }  
   
-  @media only screen and (max-width: 600px) {
-    .card {
-        width: 80%;
-        height: 30%;
+  @media only screen and (min-width: 600px) {
+    .divv{
+        width: 80vw;
+        height: 40vh;
     }
+
   }
